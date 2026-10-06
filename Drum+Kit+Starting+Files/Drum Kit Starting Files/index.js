@@ -2,7 +2,8 @@ let n=document.querySelectorAll(".drum").length;
 
 for(var i=0;i<n;i++){
     document.querySelectorAll(".drum")[i].addEventListener("click",function (){
-        var audio1=new Audio("sounds/crash.mp3");
-        audio1.play();
+        // var audio1=new Audio("sounds/crash.mp3");
+        // audio1.play();
+        this.style.color="white";
     });
 }
