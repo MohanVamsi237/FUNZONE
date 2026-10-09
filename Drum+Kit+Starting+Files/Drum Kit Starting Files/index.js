@@ -33,7 +33,12 @@ for(var i=0;i<n;i++){
                 var tom4=new Audio("sounds/tom-4.mp3");
                 tom4.play();
                 break;
-            default:
+            default: console.log(buttonInnerHTML);
         }
     });
 }
+
+document.addEventListener("keypress",function(){
+    alert("Key was pressed!");
+});
+
